@@ -21,6 +21,7 @@ const cli = async () => {
         serverHost: process.env.ZIGOXY_SERVER_HOST || "localhost",
         serverPort: parseInt(process.env.ZIGOXY_SERVER_PORT || "3000"),
         localPort: localPort,
+        secure: false,
     });
 
     try {
